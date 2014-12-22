@@ -1,6 +1,6 @@
 About
 ===
-<strong>Botcoi</strong> is an interactive bot written for <a href="https://rstforums.com/chat/">RST Chat</a>. It responds to the following commands:
+<strong>Botcoi</strong> is an interactive bot written for <a href="https://rstforums.com/chat/" target="_blank">RST Chat</a>. It responds to the following commands:
 
 ```
 bc joke
@@ -44,4 +44,4 @@ bc url e|encode|d|decode <string>
 	Encodes/decodes `<string>` to make it URL valid. <em>i.e.</em> `bc url e 1&1`
 ```
 
-Author: <a href="http://webtoil.co/">Gecko - webtoil.co</a>
+Author: <a href="http://webtoil.co/" target="_blank">Gecko - webtoil.co</a>
