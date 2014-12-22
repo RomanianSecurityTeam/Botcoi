@@ -43,3 +43,5 @@ bc sha1 <string>
 bc url e|encode|d|decode <string>
 	Encodes/decodes `<string>` to make it URL valid. <em>i.e.</em> `bc url e 1&1`
 ```
+
+Author: <a href="http://webtoil.co/">Gecko - webtoil.co</a>
