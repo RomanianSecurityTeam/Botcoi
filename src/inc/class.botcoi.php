@@ -269,7 +269,7 @@ class Botcoi
 	{
 		$this->processed_messages[] = $id;
 
-		if (preg_match('#\b' . implode("|", $this->swearing_words) . '\b#', $message))
+		if (preg_match('#\b' . implode("|", $this->swearing_words) . '\b#i', $message))
 			$this->queue_response("Ai grija la limbaj, te rog!", $user);
 
 		if ($this->bot_command($message, 'joke'))
