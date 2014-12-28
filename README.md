@@ -3,7 +3,7 @@ About
 <strong>Botcoi</strong> is an interactive bot written for <a href="https://rstforums.com/chat/" target="_blank">RST Chat</a>. It responds to the following commands:
 
 ```
-bc joke
+joke
 	Returns a random joke from a few APIs around the Web
 
 bc compute|comp <expression>
@@ -15,10 +15,6 @@ bc compute|comp <expression>
 bc realurl <short_url>
 	Returns the final URL of <short_url>. It can be used on bit.ly or goo.gl
 	links, for example.
-
-bc header <header_name> <website_url>
-	Returns the value of <header_name> from the <website_url> HTTP request.
-	i.e. bc header content-type http://google.com
 
 bc convert|conv <amount> <a> <b>
 	Converts <amount> from <a> to <b>. <a> and <b> must be a 3-letter
@@ -44,6 +40,20 @@ bc sha1 <string>
 bc url e|encode|d|decode <string>
 	Encodes/decodes <string> to make it URL valid
 	i.e. bc url e 1&1
+
+vremea|weather <city>, <country>
+	Returns the weather for the given <city> and <country>
+	<country> is optional, specify it only if the <city>
+	is not recognised
+	i.e. vremea oradea
+	
+recomanda|recommend film|movie <genre>
+	It returns a random movie from IMDb's top 250 top rated movies
+	To find out all the available genres, use "recommend cat"
+	i.e. recommend movie comedy
+	
+recomanda|recomment categorii|cat
+	Returns all the genres supported by the command above.
 ```
 
 Author: <a href="http://webtoil.co/" target="_blank">Gecko - webtoil.co</a>
