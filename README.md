@@ -5,6 +5,9 @@ About
 ```
 joke
 	Returns a random joke from a few APIs around the Web
+	
+abonare|dezabonare
+	Subscribe/unsubscribe to the new posts on the forum.
 
 bc compute|comp <expression>
 	Returns the output of WolframAlpha's API. <expression>
