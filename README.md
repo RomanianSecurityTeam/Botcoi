@@ -6,7 +6,7 @@ About
 joke
 	Returns a random joke from a few APIs around the Web
 	
-abonare|dezabonare
+abo|abonare|dezabo|dezabonare
 	Subscribe/unsubscribe to the new posts on the forum.
 
 bc compute|comp <expression>
