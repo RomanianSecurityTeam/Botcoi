@@ -1,6 +1,16 @@
+<style>
+	body {
+		background-color: #111;
+		color: #999;
+		font-family: 'Open Sans', Arial, sans-serif;
+		font-size: 14px;
+	}
+</style>
 <?php
 
-require 'inc/class.botcoi.php';
+require 'inc/Botcoi.php';
 
-$bot = new Botcoi();
-$bot->begin();
+$bc = new Botcoi();
+$bc->init();
+
+?>
