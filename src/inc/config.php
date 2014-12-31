@@ -3,8 +3,8 @@
 set_time_limit(0);
 $user = new stdClass();
 
-$user->name = 'Botcoi'; 		// Your forum username
-$user->pass = 'saptesute@@'; 	// Your forum password
+$user->name = ''; 		// Your forum username
+$user->pass = ''; 		// Your forum password
 
 
 
